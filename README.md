@@ -26,7 +26,7 @@ Upon entering the correct password, a shopping screen pops up. The user can then
 
 _An example order that I placed:_
 
-![image](![image](https://user-images.githubusercontent.com/89614923/148914778-8d137a21-679f-4b0c-abaf-a4e0542e9d86.png))
+![image](https://user-images.githubusercontent.com/89614923/148914778-8d137a21-679f-4b0c-abaf-a4e0542e9d86.png)
 
 _The format of the order in the "order.txt" file:_
 
@@ -35,6 +35,8 @@ Calgary Tower\
 101 9 Ave SW\
 Calgary, AB\
 T2P 1J9\
+
+&nbsp;
 
 ## How to Use?
 1. Download and compile all files, and then execute java Driver.java.
