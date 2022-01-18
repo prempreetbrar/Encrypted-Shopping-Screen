@@ -34,7 +34,7 @@ Prempreet Brar\
 Calgary Tower\
 101 9 Ave SW\
 Calgary, AB\
-T2P 1J9\
+T2P 1J9
 
 &nbsp;
 
