@@ -1,4 +1,4 @@
-# Encrypted-Shopping-Screen
+# Shopping-Screen
 
 The program opens a login dialog which prompts the user for a password. The password entered by the user is then compared to an encrypted password.
 Upon entering the correct password, a shopping screen pops up. The user can then enter their info, and the "order" is written to a .txt file.
