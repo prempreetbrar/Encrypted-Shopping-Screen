@@ -46,6 +46,21 @@ T2P 1J9
 
 &nbsp;
 
+### If you are on Linux
+
+1. Check if Java is installed by running ```java -version``` in the terminal. If it is, proceed to step . If it isn't, you'll get the following output: 
+<img width="471" alt="image" src="https://user-images.githubusercontent.com/89614923/192161129-526927d3-4be7-4b67-af30-3d13a832008d.png">
+
+2. Run 
+```
+sudo apt install default-jre
+sudo apt install default-jdk
+
+``` 
+in the terminal; type in Y when prompted.
+
+3. Now, we need to configure the environment variables; 
+
 ### If you are on MacOS
 
 1. Java comes installed with OSX. So, click on the green button in the top right that says ```Code```, click ```Download ZIP```, and then execute the following commands in your terminal:
@@ -63,11 +78,10 @@ The following codeblock above first puts you in the directory containing the sho
 
 1. **Note: java installation on Windows is cumbersome.** Check if you have java installed by writing ```java -version``` in the command prompt. 
 <img width="710" alt="image" src="https://user-images.githubusercontent.com/89614923/192158251-cf1afe71-901f-473a-a3ff-6642cb6f7faf.png">
-If you don't have java installed, click [here](https://www.oracle.com/java/technologies/downloads/#jdk19-windows) and install the latest JDK version. Click ```x64 Installer``` as your installation option. 
+**If you have Java installed, skip to step 11! If you don't have Java installed, continue reading.**
+If you don't have java installed, click [here](https://www.oracle.com/java/technologies/downloads/#jdk19-windows) and install the latest JDK version.
+Click ```x64 Installer``` as your installation option. 
 <img width="1265" alt="image" src="https://user-images.githubusercontent.com/89614923/192158881-060bb46f-54ce-4625-9db2-5c58ba8f4d34.png">
-
-
-
 
 2. Go to your downloads folder and open the file you just installed; go through the entire installation process (you don't need to change any options). 
 <img width="523" alt="image" src="https://user-images.githubusercontent.com/89614923/192158903-97244102-d562-4124-bc00-c602cdc84e48.png">
