@@ -32,7 +32,8 @@ The following codeblock above first puts you in the directory containing the sho
 1. **Note: java installation on Windows is cumbersome.** Check if you have java installed by writing ```java -version``` in the command prompt. 
 <img width="710" alt="image" src="https://user-images.githubusercontent.com/89614923/192158251-cf1afe71-901f-473a-a3ff-6642cb6f7faf.png">
 If you don't have java installed, click [here](https://www.oracle.com/java/technologies/downloads/#jdk19-windows) and install the latest JDK version. Click ```x64 Installer``` as your installation option. 
-![image](https://user-images.githubusercontent.com/89614923/192158288-37ea6af0-5702-45d0-8b9b-564d0dbf5929.png)
+![image](https://user-images.githubusercontent.com/89614923/192158542-5e6aa122-8846-4651-85d5-1d6aaa4b1ecf.png)
+
 
 
 
