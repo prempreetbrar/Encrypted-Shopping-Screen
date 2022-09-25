@@ -1,4 +1,3 @@
-
 # Shopping-Screen
 
 The program opens a login dialog which prompts the user for a password. The password entered by the user is then compared to an encrypted password.
@@ -11,74 +10,6 @@ Upon entering the correct password, a shopping screen pops up. The user can then
 &nbsp;
 &nbsp;
 &nbsp;
-
-
-
-### If you are on MacOS
-
-1. Java comes installed with OSX. So, click on the green button in the top right that says ```Code```, click ```Download ZIP```, and then execute the following commands in your terminal:
-
-```
-cd ~/Downloads/Shopping-Screen-main
-javac *.java
-java Driver
-```
-The following codeblock above first puts you in the directory containing the shopping screen, then compiles all java files, and then executes the program.
-
-&nbsp;
-
-### If you are on Windows
-
-1. **Note: java installation on Windows is cumbersome.** Check if you have java installed by writing ```java -version``` in the command prompt. 
-<img width="710" alt="image" src="https://user-images.githubusercontent.com/89614923/192158251-cf1afe71-901f-473a-a3ff-6642cb6f7faf.png">
-If you don't have java installed, click [here](https://www.oracle.com/java/technologies/downloads/#jdk19-windows) and install the latest JDK version. Click ```x64 Installer``` as your installation option. 
-![image](https://user-images.githubusercontent.com/89614923/192158542-5e6aa122-8846-4651-85d5-1d6aaa4b1ecf.png)
-
-
-
-
-2. Go to your downloads folder and open the file you just installed; go through the entire installation process (you don't need to change any options). 
-https://mail.google.com/mail/u/0?ui=2&ik=3a2ce7e191&attid=0.0.1&permmsgid=msg-a:r3292524296436141998&th=18375bcb68ad1939&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_yYLAK5hrjfWafn8UWspZbS3nDMP1XOnS9Ba_NoQ1dLfXvtC_StKSbNtiJNgtuHGpHNad35_68kZdUUAUSSCd7rldjZI4pgThJATBy9slRU4MIinA0BMW28HU&disp=emb&realattid=ii_l8hmgc2w1![image](https://user-images.githubusercontent.com/89614923/192158310-86497045-4972-4d2c-a07d-e6747c416e67.png)
-
-3. Open up the start menu and type in *environment variables*. Select *edit the system environment variables*. 
-https://phoenixnap.com/kb/wp-content/uploads/2021/12/edit-system-environment-variables.png![image](https://user-images.githubusercontent.com/89614923/192158336-737ac4bc-8fad-44fe-a2cd-b43032b210e4.png)
-
-
-4. In the *System Properties Window*, under the *Advanced* tab, click *Environment Variables...* 
-https://phoenixnap.com/kb/wp-content/uploads/2021/12/environment-variables-in-system-properties.png![image](https://user-images.githubusercontent.com/89614923/192158345-21d8274f-9234-4909-9dbd-7768b51d1f38.png)
-
-5. Under the *System variables* category, select the *Path* variable and click *Edit* 
-https://phoenixnap.com/kb/wp-content/uploads/2021/12/environment-variables-in-windows.png![image](https://user-images.githubusercontent.com/89614923/192158353-6d1ebedf-a504-4aa1-a478-edd06958e8cf.png)
-
-6. Click the New button and enter the path to the Java bin directory (will be ```C:\Program Files\Java\jdk-<version number>\bin```. For example, if you installed JDK 19.0.1, it would be ```C:\Program Files\Java\jdk-19.0.1\bin```. Click ok to save the changes. 
-https://phoenixnap.com/kb/wp-content/uploads/2021/12/add-java-environment-variable.png![image](https://user-images.githubusercontent.com/89614923/192158363-890ce0b2-1492-4589-9319-e93fa0e75003.png)
-
-7. In the _Environment Variables_ window, under the _System variables_ category, click the **New…** button to create a new variable.
-https://phoenixnap.com/kb/wp-content/uploads/2022/02/create-new-java-home-environment-variable.png![image](https://user-images.githubusercontent.com/89614923/192158392-7aa05041-a4bc-4a20-a7e6-f1b2b36f5e72.png)
-
-8. Name the variable as **_JAVA_HOME_**, and in the variable value field, paste the path to your Java jdk directory (like you did in step 6) and click **OK**. 
-https://phoenixnap.com/kb/wp-content/uploads/2022/02/add-java-home-environment-variable.png![image](https://user-images.githubusercontent.com/89614923/192158399-782d44ee-4512-4a38-9d47-0e22d3978bbd.png)
-
-9. Confirm the changes by clicking **OK** in the _Environment Variables_ and _System properties_windows_.
-
-10. Test the installation by opening up your command prompt and writing ```java -version```. If the installation was successful, you should see something similar to the following (with a potentially different version number): 
-https://phoenixnap.com/kb/wp-content/uploads/2021/12/java-installed-on-windows.png![image](https://user-images.githubusercontent.com/89614923/192158425-1a9223d8-67e3-45f8-9edf-d4349f84f6eb.png)
-
-
-11. Open up your command prompt (if it isn't already), and execute the following commands:
-```
-cd ~/Downloads/Shopping-Screen-main
-javac *.java
-java Driver
-```
-The following codeblock above first puts you in the directory containing the shopping screen, then compiles all java files, and then executes the program.
-
-&nbsp;
-&nbsp;
-&nbsp;
-
-
-
 
 ## Features [LoginDialog.java]:
 ![image](https://user-images.githubusercontent.com/89614923/131058925-299baf5b-c8c8-4c5b-908c-7f0e66562397.png)
@@ -115,9 +46,61 @@ T2P 1J9
 
 &nbsp;
 
-## How to Use?
-1. Download and compile all files, and then execute java Driver.java.
-2. This will bring up a login screen. To see how the GUI responds to incorrect attempts, enter in any word other than "password".
-   If you'd like to progress to the shopping screen, enter "password".
-3. At the shopping screen, enter in a name and address, and then press save to write the order to a .txt file, or clear if you want
-   to write another order.
+### If you are on MacOS
+
+1. Java comes installed with OSX. So, click on the green button in the top right that says ```Code```, click ```Download ZIP```, and then execute the following commands in your terminal:
+
+```
+cd ~/Downloads/Shopping-Screen-main
+javac *.java
+java Driver
+```
+The following codeblock above first puts you in the directory containing the shopping screen, then compiles all java files, and then executes the program.
+
+&nbsp;
+
+### If you are on Windows
+
+1. **Note: java installation on Windows is cumbersome.** Check if you have java installed by writing ```java -version``` in the command prompt. 
+<img width="710" alt="image" src="https://user-images.githubusercontent.com/89614923/192158251-cf1afe71-901f-473a-a3ff-6642cb6f7faf.png">
+If you don't have java installed, click [here](https://www.oracle.com/java/technologies/downloads/#jdk19-windows) and install the latest JDK version. Click ```x64 Installer``` as your installation option. 
+<img width="1265" alt="image" src="https://user-images.githubusercontent.com/89614923/192158881-060bb46f-54ce-4625-9db2-5c58ba8f4d34.png">
+
+
+
+
+2. Go to your downloads folder and open the file you just installed; go through the entire installation process (you don't need to change any options). 
+<img width="523" alt="image" src="https://user-images.githubusercontent.com/89614923/192158903-97244102-d562-4124-bc00-c602cdc84e48.png">
+
+3. Open up the start menu and type in *environment variables*. Select *edit the system environment variables*. 
+<img width="710" alt="image" src="https://user-images.githubusercontent.com/89614923/192158928-e36ebf82-9088-4988-b20d-2fc92916a449.png">
+
+4. In the *System Properties Window*, under the *Advanced* tab, click *Environment Variables...* 
+<img width="413" alt="image" src="https://user-images.githubusercontent.com/89614923/192158943-ed26a764-44a6-4815-95b5-a21c1e65fdde.png">
+
+5. Under the *System variables* category, select the *Path* variable and click *Edit* 
+<img width="619" alt="image" src="https://user-images.githubusercontent.com/89614923/192159024-29f19e40-a506-490e-876f-98638e322914.png">
+
+6. Click the New button and enter the path to the Java bin directory (will be ```C:\Program Files\Java\jdk-<version number>\bin```. For example, if you installed JDK 19.0.1, it would be ```C:\Program Files\Java\jdk-19.0.1\bin```. Click ok to save the changes. 
+<img width="529" alt="image" src="https://user-images.githubusercontent.com/89614923/192159043-264ece6e-8e1b-47f0-ab55-ab702987a5c5.png">
+
+7. In the _Environment Variables_ window, under the _System variables_ category, click the **New…** button to create a new variable.
+<img width="618" alt="image" src="https://user-images.githubusercontent.com/89614923/192159062-c9b1cca6-043f-4335-9352-153c65fecf1a.png">
+
+8. Name the variable as **_JAVA_HOME_**, and in the variable value field, paste the path to your Java jdk directory (like you did in step 6) and click **OK**. 
+<img width="654" alt="image" src="https://user-images.githubusercontent.com/89614923/192159074-8eb543d8-cbe6-4872-9283-3db59241785d.png">
+
+9. Confirm the changes by clicking **OK** in the _Environment Variables_ and _System properties_windows_.
+
+10. Test the installation by opening up your command prompt and writing ```java -version```. If the installation was successful, you should see something similar to the following (with a potentially different version number): 
+<img width="710" alt="image" src="https://user-images.githubusercontent.com/89614923/192159086-e81ad28a-3405-447f-a3cf-60266e805400.png">
+
+
+11. Open up your command prompt (if it isn't already), and execute the following commands:
+```
+cd ~/Downloads/Shopping-Screen-main
+javac *.java
+java Driver
+```
+The following codeblock above first puts you in the directory containing the shopping screen, then compiles all java files, and then executes the program.
+
